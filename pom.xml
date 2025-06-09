@@ -71,5 +71,19 @@
         </plugin>
       </plugins>
     </pluginManagement>
+    <plugins>
+      <plugin>
+         <groupId>org.apache.maven.plugin</plugin>
+         <version>3.0.2</version>
+         <configuration>
+         <archive>
+          <manifest>
+            <addClasspath>true</addClasspath>
+            <mainClass>com.mvit</mainClass>
+          </manifest>
+          </archive>
+          </configuration>
+        </plugin>
+      </plugins>
   </build>
 </project>
